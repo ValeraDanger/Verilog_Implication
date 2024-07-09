@@ -1,7 +1,7 @@
 IVERILOG ?= iverilog
 VVP ?= vvp
-SOURCES = adder_logic_1_bit.sv testbenches/adder_1_bit_tb.sv
-TOPMODULE = adder_1_bit_tb
+SOURCES = implic.sv testbenches/implic_tb.sv
+TOPMODULE = implic_tb
 IVERILOG_FLAGS = -g2012
 
 all: tests
